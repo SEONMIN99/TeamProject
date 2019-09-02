@@ -3,7 +3,7 @@
  *   인터페이스 Shape - 여기에 인터페이스 설명을 작성하십시오.
  * 
  * @author (2018315040 KimSeonMin, 2018315034 JeongCheolwoo) 
- * @version (버전 번호나 날짜)
+ * @version (2019/09/02)
  */
 
 public interface Shape
