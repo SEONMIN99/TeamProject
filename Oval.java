@@ -2,6 +2,7 @@
 /**
  * Write a description of class Oval here.
  *
+<<<<<<< HEAD
  * @author (2018315040 KimSeonMin, 2018315034 JeongCheolwoo, 2018315031 Parksunghyun)
  * @version (2019.09.04)
  */
