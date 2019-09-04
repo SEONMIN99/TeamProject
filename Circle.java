@@ -1,21 +1,20 @@
 
 /**
- * Write a description of class Circle here.
- *
- * @author (your name)
- * @version (a version number or a date)
+ * 여기에 Circle 클래스 설명을 작성하십시오.
+ * 
+ * @author (작성자 이름) 
+ * @version (버전번호나 날짜)
  */
 public class Circle implements Shape
 {
-    public Circle(double radius){
+    int radius;
+    public Circle(int radius){
         this.radius = radius;
     }
-
     public void draw(){
-        System.out.print("면적");
+        System.out.println("반지름이"+ radius + "인 원입니다.");
     }
-
-    public double getArea(double radius){
+    public double getArea(){
         return PI * radius * radius;
     }
 }
