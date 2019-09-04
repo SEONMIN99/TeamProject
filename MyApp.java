@@ -5,7 +5,8 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class main
+public class MyApp
+
 {
     public static void main(String[] args){
         Shape[] list = new Shape[3];
