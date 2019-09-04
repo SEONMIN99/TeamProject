@@ -2,32 +2,23 @@
 /**
  * Write a description of class Rect here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (2018315040 KimSeonMin, 2018315034 JeongCheolwoo, 2018315031 Parksunghyun)
+ * @version (2019/09/04)
  */
 public class Rect implements Shape
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class Rect
-     */
-    public Rect()
+    int width, height;
+    public Rect(int width, int height)
     {
-        // initialise instance variables
-        x = 0;
+        this.width = width;
+        this.height = height;
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    public void draw(){
+        System.out.println(width + "x" + height + "크기의 사각형입니다.");
+    }
+
+    public double getArea(){
+        return width * height;
     }
 }
